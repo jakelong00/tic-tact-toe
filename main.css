@@ -1,0 +1,61 @@
+body {
+    background-color: #92B8FF;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #39364C;
+    height: 100px;
+    width: inherit;
+    font-size: 200%;
+}
+
+.desc {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    margin: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: solid 3px black;
+    height: 450px;
+    width: 450px;
+    background-color: #E7E3E7;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(3, 33%);
+    gap: 2px;
+    align-content: center;
+    justify-content: center;
+    border-right: solid 2px black;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cell {
+    font-size: 650%;
+    background-color: lawngreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.cell:hover {
+    background-color: darkgreen;
+}
